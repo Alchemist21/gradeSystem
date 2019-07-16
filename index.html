@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teachers gradebook</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+</head>
+<body>
+    <header>
+    <h1>Teacher Gradebook</h1> 
+    
+
+    <div class="teach-info"> 
+     <p><b>Teacher :  Louell Sala </b></p>   
+     <p><b>Email :  louell_sala@yahoo.com </b></p>   
+    </div> 
+    </header>
+    
+<main>
+    <hr>
+    <aside>
+      
+        <h4>Students</h4>
+        <br>
+        <button onclick="student1()">Paul Calais</button> 
+       <br>
+        <button onclick="student2()">Dan Snow</button>  
+    <br>
+        <button onclick="student3()">Pat Arquette</button>  
+<br>
+        <button onclick="student4()">Andrew Bones</button> 
+    <br>  
+        <button><a href = "index.html">Back </a></button> 
+        <br> 
+    
+    </aside>
+   
+    <section class="profile" >
+      
+        <article class="view-profile">
+        <h2>Student Profile and Grades</h2>
+        <p id="pic">Click on the student to view grades and profile</p>
+        <p id="studentId">All grades and profile information is available</p>
+        <p id="fname"></p>
+        <p id="lname"></p>
+        <p id="email"></p>
+       
+       
+        </article> 
+       
+        <article id="grades" class="view-grades">
+
+                <table>
+                        <tr>
+                          <th>Project 1 - Intro to HTML</th>
+                          <th>Quiz - Intro to HTML Exam</th>
+                          
+                          <th>Project 2 - Graphic Design Work</th> 
+                          <th>Quiz 2 - Unit 2 Graphic Quiz</th>      
+                          
+                          <th>Project 3 - Javascript Application</th>
+                          <th>Quiz 3 - Unit 3 Javascript Quiz </th>
+                        </tr>
+                        <tr>
+                          <td id="p1Num"></td>
+                          <td id="q1Num"></td>
+                          <td id="p2Num"></td>
+                          <td id="q2Num"></td>
+                          <td id="p3Num"></td>
+                          <td id="q3Num"></td>
+                        </tr>
+                        <tr>
+                          <td id="p1Grade"></td>
+                          <td id="q1Grade"></td>
+                          <td id="p2Grade"></td>
+                          <td id="q2Grade"></td>
+                          <td id="p3Grade"></td>
+                          <td id="q3Grade"></td>
+                        </tr>
+                        
+
+                      </table>
+
+        </article>   
+
+    </section>
+
+</main>
+<script src="index.js"></script>
+</body>
+</html>

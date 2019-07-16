@@ -1,0 +1,67 @@
+body {
+   background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header {
+    background-image: linear-gradient(rgb(10, 126, 146), rgb(30, 217, 241), rgb(0, 126, 146));
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+  
+}
+
+.section #profile{
+    float: right;  
+
+
+    
+}
+
+.teach-info{
+    padding-left: 2px;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(24, 155, 243);
+  
+}
+/* table */
+
+table, th, td {
+    border: 1px solid black;
+ 
+}
+  
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(20, 142, 241); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 5px 10px;
+    cursor: pointer;  
+    border-radius: 16px;
+}
+
+#pic img{
+    width: 20%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.clear{
+    clear: both;
+}
